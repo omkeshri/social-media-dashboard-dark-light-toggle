@@ -24,9 +24,11 @@
     text-align: center;
     transition: background 150ms ease-in-out;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background: var(--card-hover);
     }
+
     &--facebook {
         border-top: rem(5) solid var(--facebook);
     }
@@ -59,7 +61,7 @@
         font-weight: bold;
         color: var(--text-color2);
     }
-    
+
     &__platform {
         display: flex;
         justify-content: center;
@@ -69,7 +71,7 @@
         height: rem(20);
     }
 
-    &__subtitle{
+    &__subtitle {
         font-size: rem(14);
         font-weight: 700;
         color: var(--text-color2);
@@ -126,6 +128,4 @@
             margin-right: rem(4);
         }
     }
-
-
 }

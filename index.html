@@ -4,11 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>Social Media Dashboard Dark Light Toggle</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,21 +15,11 @@
 
   <link rel="stylesheet" href="/dist/style.css">
   <script defer src="/dist/script.js"></script>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
   <header class="header container">
+
     <div class="header__title">
       <h1>Social Media Dashboard</h1>
       <span class="header__subtitle">Total Followers: 23,004</span>
@@ -47,7 +35,9 @@
       </div>
       <label for="light" class="visually-hidden">Dark Mode Off</label>
     </fieldset>
+
   </header>
+
   <main>
     <section class="container cards">
       <div class="card card--facebook">
@@ -58,9 +48,7 @@
           <div class="card__username">@nathanf</div>
         </div>
         <div class="card__followers">
-          <div class="card__count card__count--big">
-            1987
-          </div>
+          <div class="card__count card__count--big">1987</div>
           <div class="card__label">Followers</div>
         </div>
         <div class="card__change card__change--up">
@@ -136,7 +124,8 @@
 
     </section>
 
-    <section class="container">
+    <section class="container container_small">
+
       <h2>Overview - Today</h2>
       <div class="cards">
         <div class="card card-grid">
@@ -218,14 +207,14 @@
             <div class="card__number">12%</div>
           </div>
         </div>
-
       </div>
     </section>
-  </main>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-</body>
 
+    <section class="attribution">
+      Coded by: <span>Om Keshri</span>
+    </section>
+
+  </main>
+
+</body>
 </html>

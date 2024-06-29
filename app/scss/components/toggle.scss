@@ -1,5 +1,4 @@
 @use '../util' as *;
-// https://codepen.io/SaraSoueidan/pen/jpBbrq/?editors=1100
 
 .toggle { 
   display: grid;
@@ -46,7 +45,6 @@
     overflow: hidden;
     display: block;
     height: 100%;
-    // background: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
     background: var(--toggle-bg);
     pointer-events: none;
   }

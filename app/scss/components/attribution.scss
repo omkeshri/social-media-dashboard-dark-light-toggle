@@ -1,0 +1,12 @@
+@use '../util/' as *;
+
+.attribution {
+    font-size: rem(11);
+    text-align: center;
+    margin-bottom: rem(2);
+  }
+
+  .attribution span {
+    font-weight: 700;
+    color: var(--attribution-name);
+  }
